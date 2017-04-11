@@ -9,6 +9,16 @@
     <artifactId>news.business</artifactId>
     <name>Componente business</name>
     <packaging>jar</packaging>
-  <build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.strepsis.news</groupId>
+            <artifactId>news.domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
     </build>
 </project>
